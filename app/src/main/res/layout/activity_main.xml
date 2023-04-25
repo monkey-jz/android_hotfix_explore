@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_fixcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="代码修复"
+        ></Button>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="弹个吐司"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn_fixres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="资源修复"
+        ></Button>
+    <ImageView
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/test"
+
+        ></ImageView>
+    <Button
+        android:id="@+id/btn_fixso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="so修复"
+        ></Button>
+</LinearLayout>
